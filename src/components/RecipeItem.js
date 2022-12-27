@@ -7,7 +7,7 @@ const RecipeItem = ({ favouriteHandler, savedItems }) => {
   const { id } = useParams();
 
   const { data: recipe, loading, error } = useFetch(id);
-
+  // time counting method
   const durationCalc = (duration) => {
     if (!duration) return;
 

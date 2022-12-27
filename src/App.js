@@ -32,7 +32,7 @@ const App = () => {
     setError("");
     navigate("/");
   };
-
+  // get data from the api
   const getData = async (searchQuery) => {
     try {
       setLoading(true);
